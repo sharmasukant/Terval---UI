@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    body{
+      width: 100%;
+    background:url(Untitled\ design\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden
+    
+    }
+
+
+
+   .navbar{
+      width: 1500px;
+      height: 80px;
+      margin:auto 0 px;
+      box-shadow: 3px 0px 6px rgba(225, 225,225);
+      shape-margin:5px;
+      }
+.icon{
+   width: 180px;
+   float:left;
+   height: 70px;
+   }
+   .logo{
+      color: white;
+      font-size: 25px;
+      padding-left: 20px;
+      float: left;
+      padding-top: 30px;
+   }
+   .menu{
+      width: 400px;
+      float: left;
+      height: 70px;
+      color: white;
+   }
+   ul{
+      float: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   ul li{
+list-style: none;
+margin-left: 60px;
+margin-top: 30px;
+font-size: 20px;
+color: white;
+}
+
+.abc{
+   text-align: center;
+   
+}
+ li:hover {
+   text-shadow: 0px 0px 10px rgba(225, 225,225);
+}
+.content{
+   color: white;
+   width: 900px;
+   margin:60px;
+  line-height: 35px;
+  position: relative;
+}
+.p1{
+   margin-left: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.reviews{     width: 250px;
+            height: 380px;
+            background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+            position: absolute;
+            top:10px;
+            left: 980px;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 0 5px rgba(225, 225,225);
+            overflow-y: scroll;
+}
+.reviews::-webkit-scrollbar  {
+      display: none;
+  }
+  .reviews h2{
+   border-bottom: 1px solid wheat;
+  }
+  .reviews p h4{
+   line-height: 25px;
+  }
+  .reviews i{
+   float: right;
+   line-height: 25px;
+  }
+  .button{
+   color: white;
+   width: 200px;
+   height:auto;
+   left: 1030px;
+   background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    border: solid.1px white;
+    border-radius: 4px;
+   top:600px;
+   position: absolute;
+   text-align: center;
+  }
+  .button:hover{
+   box-shadow: 0 0 5px rgba(225, 225,225);
+  }
