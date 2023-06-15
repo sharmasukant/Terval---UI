@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(background.png);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    align-items: center;
+    justify-content: center;
+}
+.A{
+    align-items: center;
+    justify-content: center;
+   padding:auto;
+   
+    
+}
+.icon{
+    margin: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.main{
+    width: 1200px;
+    height: 450px;
+    border: 2px solid black;
+    margin-left:5%;
+    margin-top: 5%;
+    position: relative;
+    padding: 5px 5px 5px 5px;
+}
+.image{
+    
+    background-image:url(Add\ a\ heading.png);
+    background-position:initial center;
+    background-size :cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 405px;
+    box-shadow: 0 0 8px black;
+    margin-left:3%;
+    margin-top: 2%;
+   
+}
+.form{
+    width: 300px;
+    height:370px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    box-shadow: 0 0 8px black;
+    position: absolute;
+    top: 20px;
+    left: 840px;
+    
+    padding: 25px;
+
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 22px;
+    color:white;
+    background-color:black;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+ }
+ ::placeholder{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .bttn{
+    width: 240px;
+    height: 40px;
+    background:black;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius:10px;
+}
+.form .link{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+padding-top: 20px;
+text-align: center;
+
+}
+.from .link a{
+text-decoration: none;
+color: white;
+
+}
+.liw{
+padding:15px;
+padding-bottom:10px;
+text-align: center;
+
+}

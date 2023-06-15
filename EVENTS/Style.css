@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    height:fit-content;
+}
+body{
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Light\ Blue\ Teal\ Feather\ Quote\ Motivational\ Desktop\ Wallpaper\ \(1\).png);
+    height:auto;
+    background-position: center;
+    background-size:auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    position: relative;
+    }
+    span{
+        color: black;
+    }
+.icon{
+    width: 200px;
+    /* float: left; */
+    height: 70px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    font-family: arial;
+    float: left;
+    padding: 10px;
+
+}
+
+.parent {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap:wrap; /* Allow the child elements to wrap to the next line */
+    width: 830px; /* Adjust the width according to your needs */
+    border: 2px solid black;
+    height:auto;
+    padding: 30px 30px 40px 30px;
+    /* margin: 30px 20% 20px 20%; */
+    margin-left: 220px;
+
+    }
+  
+  
+  .childA{
+background: url(gujrate.jpg);
+width: 270px;
+height: 270px; 
+margin: 3px; 
+background-position: center;
+background-size:cover;
+box-shadow: 0px 20px 10px rgba(225, 225,225);
+}
+.a{
+    width: 270px;
+    background:rgba(192,192,192);
+height: 30px; 
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 270px;
+background-position: center;
+background-size:cover;
+box-shadow: 0px 0px 5px rgba(225, 225,225);}
+.childB{
+    width: 270px;
+    height: 270px; 
+    margin: 3px; 
+    background: url(desert.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 20px 10px rgba(225, 225,225);
+        
+}
+ .b{
+    width: 270px;
+    background:rgba(192,192,192);
+height: 30px; 
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 270px;
+background-position: center;
+background-size:cover;
+box-shadow: 0px 0px 5px rgba(225, 225,225);
+ }
+  
+ .childC{
+    width: 270px;
+    height: 270px; 
+    margin: 3px; 
+    background: url(dehli.jpg) rgba(0,0,0,0.20);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 20px 10px rgba(225, 225,225);
+    
+}
+.c{
+    width: 270px;
+    background:rgba(192,192,192);
+height: 30px; 
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 270px;
+background-position: center;
+background-size:cover;
+box-shadow: 0px 0px 5px rgba(225, 225,225);
+
+ }
+
+ .childD{
+    width: 270px;
+    height: 270px; 
+    margin: 3px; 
+    background: url(kashmier.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 20px 10px rgba(225, 225,225);
+    margin-top: 40px;}
+.d{
+width: 270px;
+background:rgba(192,192,192);
+height: 30px; 
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 270px;
+background-position: center;
+background-size:cover;
+box-shadow: 0px 0px 5px rgba(225, 225,225);}
+
+.childE{
+    width: 270px;
+    height: 270px; 
+    margin: 3px; 
+    background: url(laha.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 20px 10px rgba(225, 225,225);
+    margin-top: 40px;}
+.e{
+width: 270px;
+background:rgba(192,192,192);
+height: 30px; 
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 270px;
+background-position: center;
+background-size:cover;
+box-shadow: 0px 0px 5px rgba(225, 225,225);}
+
+.childF{
+    width: 270px;
+    height: 270px; 
+    margin: 3px; 
+    background: url(nepal.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 20px 10px rgba(225, 225,225);
+    margin-top: 40px;}
+.f{
+width: 270px;
+background:rgba(192,192,192);
+height: 30px; 
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 270px;
+background-position: center;
+background-size:cover;
+box-shadow: 0px 0px 5px rgba(225, 225,225);}
+
+.childG{
+    width: 270px;
+    height: 270px; 
+    margin: 3px; 
+    background: url(bangladas.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 20px 10px rgba(225, 225,225);
+    margin-top: 40px;}
+.g{
+width: 270px;
+background:rgba(192,192,192);
+height: 30px; 
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 270px;
+background-position: center;
+background-size:cover;
+box-shadow: 0px 0px 5px rgba(225, 225,225);
+}
+
+.childH{
+    width: 270px;
+    height: 270px; 
+    margin: 3px; 
+    background: url(Assam.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 20px 10px rgba(225, 225,225);
+    margin-top: 40px;}
+.h{
+width: 270px;
+background:rgba(192,192,192);
+height: 30px; 
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 270px;
+background-position: center;
+background-size:cover;
+box-shadow: 0px 0px 5px rgba(225, 225,225);
+}
+.childI{
+    width: 270px;
+    height: 270px; 
+    margin: 3px; 
+    background: url(Meghalaya.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 20px 10px rgba(225, 225,225);
+    margin-top: 40px;}
+.i{
+width: 270px;
+background:rgba(192,192,192);
+height: 30px; 
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 270px;
+background-position: center;
+background-size:cover;
+box-shadow: 0px 0px 5px rgba(225, 225,225);
+}
+    
+   
+/*.A{
+    width: 270px;
+    height: 200px;
+    background: url(desert.png);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 8px rgba(225, 225,225);
+    /margin:  10px 10px 10px 10px;}
+    .a{
+        background: white;
+        height: 30px;
+        width: 268px;
+        border: 1px solid white;
+        position: absolute;
+        margin-top: 170px;
+        color: black;
+        text-align: center;
+    }
+    .B{
+        width: 270px;
+        height: 200px;
+        background: url(gujrate.jpg);
+        position: absolute; 
+        
+       margin: 30px 70px 70px 310px;
+        box-shadow: 0 0 8px rgba(225, 225,225);
+        float: left;
+        
+    }
+    .b{
+        background: white;
+        height: 30px;
+        width: 268px;
+        border: 1px solid white;
+        position: absolute;
+        margin-top: 170px;
+        color: black;
+        text-align: center;
+    }
+        .C{
+            width: 270px;
+            height: 200px;
+            background: url(gujrate.jpg);
+            position: absolute; 
+            background-position: center;
+            background-size: cover;
+            margin: 30px 70px 70px 600px;
+            box-shadow: 0 0 8px rgba(225, 225,225);
+            text-align:center;}
+            .c{
+                background: white;
+                height: 30px;
+                width: 268px;
+                border: 1px solid white;
+                position: absolute;
+                margin-top: 170px;
+                color: black;
+                text-align: center;
+            }
+            .D{
+                width: 100px;
+                height: 200px;
+                background: url(desert.png);
+                position: absolute;
+                background-position: center;
+                background-size: cover;
+                 border: 5px solid white; 
+                
+                text-align:center;}
+  
+        
+        

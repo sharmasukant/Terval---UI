@@ -1,0 +1,61 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-image: url(Untitled\ design\ \(1\).png);
+  background-size: cover;
+  background-position: center;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+backdrop-filter:  blur(2px);
+}
+
+.glass{
+    width: 900px;
+    height: 500px;
+    box-shadow: 0 0 8px rgba(225, 225,225);
+  background-image:url(Untitled\ design\ \(1\).png);
+  background-size: cover;
+  background-position: center;
+ 
+}
+nav{
+  display: flex;
+  padding: 30px;
+}
+.logo{
+  font-size: 22px;
+  color: white;
+}
+nav ul{
+  flex: 1;
+  text-align:right;
+ }
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+nav ul li i:hover{
+color: black;
+}
+nav ul li i{
+ text-decoration: none;
+  font-size:25px;
+  color:white;
+  font-weight:20px;
+}
+.pra{
+  color: white;
+  padding:20px;
+}
+h3{
+  color:white;
+  padding:20px;
+}
+
